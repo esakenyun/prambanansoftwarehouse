@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="">
-      <video className="w-full h-screen object-cover" autoPlay loop muted>
+      <video className="w-full h-screen object-cover" autoPlay loop muted playsInline>
         <source src={"/video_hero.mp4"} />
       </video>
       <div className="absolute top-0 w-full h-full flex flex-col justify-center items-center md:gap-[10%] lg:gap-[25%]">
