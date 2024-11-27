@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -61,13 +62,17 @@ export default function HeroSection() {
           priority
         />
         <div className="absolute inset-0 text-white flex flex-col gap-[4%] justify-center w-full items-center px-[5%] lg:px-[20%] text-center">
-          <h1 className="text-2xl md:text-6xl font-bold">Where Vision Meets Code: Building Top-notch Software with Expert Developers</h1>
+          <h1 className="text-2xl md:text-6xl font-bold">Let Us Make Fit Product Based On Your Vision</h1>
           <p className="text-xs text-center lg:px-[15%] md:text-base">
-            CODE.ID is a software development service company where our expert team of developers passionately transforms your boldest ideas into innovative, state-of-the-art products, applications, and websites.
+            Prambanan Software House is a software development service company where can execute your vision as fit as possible. Pay for feature you need and Save time without develop unecesarry feature that you don&apos;t need.
           </p>
           <div className="flex gap-4 md:gap-10">
-            <button className="px-5 py-2 border border-primary-400 rounded-full hover:bg-primary-600">Contact Us</button>
-            <button className="px-5 py-2 bg-primary-400 rounded-full hover:bg-primary-600">Learn More</button>
+            <Link href={"#contact"} className="px-5 py-2 border border-primary-400 rounded-full hover:bg-primary-600">
+              Contact Us
+            </Link>
+            <Link href={"#services"} className="px-5 py-2 bg-primary-400 rounded-full hover:bg-primary-600">
+              Learn More
+            </Link>
           </div>
         </div>
       </div>
