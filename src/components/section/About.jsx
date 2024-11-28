@@ -30,7 +30,8 @@ export default function AboutSection() {
         <div className="order-1 md:order-2 flex justify-center">
           <Image
             src={"https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
-            className="rounded-3xl object-cover"
+            alt="About Us"
+            className="rounded-3xl object-cover w-auto"
             width={500}
             height={500}
             priority

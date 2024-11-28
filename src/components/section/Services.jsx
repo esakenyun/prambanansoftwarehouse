@@ -17,7 +17,7 @@ export default function ServicesSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 0.6, ease: "easeOut" }}>
-          <Image src={"/image/tes2.png"} className="md:w-2/5 h-auto" width={1000} height={1000} priority />
+          <Image src={"/image/tes2.png"} alt="Services 1" className="md:w-2/5 h-auto" width={1000} height={1000} priority />
           <div className="flex flex-col gap-10">
             <h1 className="text-3xl md:text-2xl lg:text-4xl font-bold">Custom Software Development</h1>
             <p>
@@ -41,7 +41,7 @@ export default function ServicesSection() {
               ensuring a seamless and efficient process.
             </p>
           </div>
-          <Image src={"/image/tes.png"} className="md:w-2/5 order-1 md:order-2" width={1000} height={1000} priority />
+          <Image src={"/image/tes.png"} alt="Services 2" className="md:w-2/5 order-1 md:order-2" width={1000} height={1000} priority />
         </motion.div>
 
         {/* Section 3 */}
@@ -51,7 +51,7 @@ export default function ServicesSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 0.6, ease: "easeOut" }}>
-          <Image src={"/image/tes.png"} className="md:w-2/5" width={1000} height={1000} priority />
+          <Image src={"/image/tes.png"} alt="Services 3" className="md:w-2/5" width={1000} height={1000} priority />
           <div className="flex flex-col gap-10">
             <h1 className="text-3xl md:text-2xl lg:text-4xl font-bold">Principal Product</h1>
             <p>

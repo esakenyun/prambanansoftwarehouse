@@ -28,7 +28,7 @@ export default function Navbar() {
           <div className="container flex flex-row justify-center py-4 backdrop:blur-lg">
             <nav className={`flex items-center gap-3 px-3 py-1 border rounded-full  ${scrolled ? "bg-white shadow-lg" : "text-white bg-transparent border-transparent"}`}>
               <a href="/" className="w-16 logo px-3 p-2 select-none">
-                <Image src="/logo/logo.png" className="w-auto h-auto shadow-lg" alt="Logo Prambanan" width={100} height={100} />
+                <Image src="/logo/logo.png" className="w-auto h-auto shadow-lg" alt="Logo Prambanan" width={100} height={100} priority />
               </a>
               <ul className="flex flex-row items-center gap-2 p-2">
                 <li>
@@ -62,7 +62,7 @@ export default function Navbar() {
           <div className="px-[5%] py-5">
             <div className="flex justify-between items-center">
               <div className="w-16 logo px-3 cursor-pointer p-2">
-                <Image src="/logo/logo.png" className="w-auto h-auto shadow-lg" alt="Logo Prambanan" width={100} height={100} />
+                <Image src="/logo/logo.png" className="w-auto h-auto shadow-lg" alt="Logo Prambanan" width={100} height={100} priority />
               </div>
               <div onClick={() => setIsNavbarOpen(true)}>
                 <HiMenu className="text-3xl cursor-pointer" />

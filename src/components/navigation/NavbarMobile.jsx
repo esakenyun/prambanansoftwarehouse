@@ -16,7 +16,7 @@ export default function NavbarMobile({ isOpen, onClose }) {
       <div className="bg-primary-400 w-full h-full px-[5%] py-5 text-white">
         <div className="flex justify-between items-center">
           <div className="w-16 logo px-3 cursor-pointer p-2">
-            <Image src="/logo/logo.png" className="w-auto h-auto shadow-lg" alt="Logo Prambanan" width={100} height={100} />
+            <Image src="/logo/logo.png" className="w-auto h-auto shadow-lg" alt="Logo Prambanan" width={100} height={100} priority />
           </div>
           <button onClick={onClose}>
             <RxCross2 className="text-4xl" />
