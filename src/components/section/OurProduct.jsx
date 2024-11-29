@@ -77,7 +77,7 @@ export default function OurProductSection() {
                 modifier: 1,
                 slideShadows: true,
               }}
-              // pagination={true}
+              pagination={true}
               modules={[EffectCoverflow, Pagination]}
               className="mySwiper">
               {product.map((item) => (
@@ -96,8 +96,16 @@ export default function OurProductSection() {
                     </div>
                   </div>
                   <div className="md:hidden">
-                    <div className="relative w-full h-[300px] md:h-[400px]">
+                    {/* <div className="relative w-full h-[300px] md:h-[400px]">
                       <Image src={item.imageURL} alt={item.name} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="w-auto h-auto object-contain" priority />
+                    </div> */}
+                    <div className="flex gap-2">
+                      <div className="relative w-full h-[400px]">
+                        <Image src={item.imageURL} alt={item.name} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="w-auto h-auto object-contain" priority />
+                      </div>
+                      <div className="relative w-full h-[400px]">
+                        <Image src={item.imageURL2} alt={item.name} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="w-auto h-auto object-contain" priority />
+                      </div>
                     </div>
                   </div>
                   <h1 className="md:text-3xl italic font-semibold text-center text-primary-900 mt-3">{item.name}</h1>
