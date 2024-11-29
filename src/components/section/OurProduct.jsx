@@ -60,7 +60,7 @@ export default function OurProductSection() {
   ];
 
   return (
-    <div className="px-[5%] md:px-[3%] py-[7%]">
+    <div className="px-[5%] md:px-[3%] pt-[7%] py-[3%] md:py-0">
       <p className="text-right text-2xl text-primary-600 font-medium">Our Product</p>
       <div className="flex justify-center w-full pt-[3%]">
         <div className="w-full rounded-lg backdrop-blur-2xl">
@@ -77,7 +77,7 @@ export default function OurProductSection() {
                 modifier: 1,
                 slideShadows: true,
               }}
-              pagination={true}
+              // pagination={true}
               modules={[EffectCoverflow, Pagination]}
               className="mySwiper">
               {product.map((item) => (

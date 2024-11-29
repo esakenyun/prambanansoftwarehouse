@@ -21,7 +21,7 @@ export default function Footer() {
             <div className="flex gap-2 items-center">
               <h1 className="text-xl font-bold italic">Prambanan Software House</h1>
             </div>
-            <p>Prambanan Software House is a software development service company that focuses on helping clients turn their best ideas into a product, application, or website.</p>
+            <p>Prambanan Software House is a software development company dedicated to bringing your vision to life with precision price. </p>
           </div>
         </div>
       </div>

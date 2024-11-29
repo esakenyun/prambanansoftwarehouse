@@ -10,10 +10,9 @@ export default function AboutSection() {
         <div className="order-2 md:order-1">
           <h1 className="font-bold uppercase text-primary-950 text-3xl italic">About Us</h1>
           <p className="text-white pt-2">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia et exercitationem sequi modi esse quasi eius voluptates. Consectetur assumenda porro, obcaecati ea, optio dicta quod eum doloribus fugiat tempore vel consequatur
-            officiis alias itaque laborum adipisci explicabo cum? At voluptas aliquam ex corrupti! Maxime, non magnam provident porro aspernatur repellat?
+            Prambanan Software House is a software development company dedicated to bringing your vision to life with precision price. We offer a pay-as-you-go model, allowing you to invest only in the features you need, saving time and
+            resources by avoiding unnecessary development.
           </p>
-
           <div className="pt-3 text-primary-500 flex flex-col gap-2">
             <div className="flex gap-3 items-center">
               <HiOutlineMail className="text-3xl" />
