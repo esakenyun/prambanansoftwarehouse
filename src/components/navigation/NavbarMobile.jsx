@@ -38,28 +38,42 @@ export default function NavbarMobile({ isOpen, onClose }) {
               hidden: { opacity: 0 },
               show: { opacity: 1 },
             }}>
-            <li className="text-4xl">Home</li>
+            <li className="text-4xl">
+              <a href="/">Home</a>
+            </li>
           </motion.ul>
           <motion.ul
             variants={{
               hidden: { opacity: 0 },
               show: { opacity: 1 },
             }}>
-            <li className="text-4xl">Services</li>
+            <li className="text-4xl">
+              <a href="#services" onClick={() => onClose()}>
+                Services
+              </a>
+            </li>
           </motion.ul>
           <motion.ul
             variants={{
               hidden: { opacity: 0 },
               show: { opacity: 1 },
             }}>
-            <li className="text-4xl">About Us</li>
+            <li className="text-4xl">
+              <a href="#about" onClick={() => onClose()}>
+                About Us
+              </a>
+            </li>
           </motion.ul>
           <motion.ul
             variants={{
               hidden: { opacity: 0 },
               show: { opacity: 1 },
             }}>
-            <li className="text-4xl">Contact</li>
+            <li className="text-4xl">
+              <a href="#contact" onClick={() => onClose()}>
+                Contact
+              </a>
+            </li>
           </motion.ul>
         </motion.nav>
 
