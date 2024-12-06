@@ -63,13 +63,13 @@ export default function OurProductSection() {
   ];
 
   const product = [
-    {
-      id: 1,
-      name: "BPLJ PUPR",
-      imageURL: "/product/bplj_pupr/lobby.png",
-      imageURL2: "/product/bplj_pupr/login.png",
-      imageURL3: "/product/bplj_pupr/schedule.png",
-    },
+    // {
+    //   id: 1,
+    //   name: "BPLJ PUPR",
+    //   imageURL: "/product/bplj_pupr/lobby.png",
+    //   imageURL2: "/product/bplj_pupr/login.png",
+    //   imageURL3: "/product/bplj_pupr/schedule.png",
+    // },
     {
       id: 2,
       name: "Binder",
@@ -79,34 +79,41 @@ export default function OurProductSection() {
     },
     {
       id: 3,
+      name: "Ivolks Creative",
+      imageURL: "/product/ivolks/services.png",
+      imageURL2: "/product/ivolks/home.png",
+      imageURL3: "/product/ivolks/about.png",
+    },
+    {
+      id: 4,
       name: "EasyBook",
       imageURL: "/product/easybook/dashboard.png",
       imageURL2: "/product/easybook/dashboard_add_buku.png",
       imageURL3: "/product/easybook/dashboard_pembayaran.png",
     },
     {
-      id: 4,
+      id: 5,
       name: "Stylish",
       imageURL: "/product/stylish/splashscreen.png",
       imageURL2: "/product/stylish/onboarding.png",
       imageURL3: "/product/stylish/placeorder.png",
     },
+    // {
+    //   id: 6,
+    //   name: "Edutrain",
+    //   imageURL: "/product/edutrain/home.png",
+    //   imageURL2: "/product/edutrain/webinar.png",
+    //   imageURL3: "/product/edutrain/forum_diskusi.png",
+    // },
     {
-      id: 5,
-      name: "Edutrain",
-      imageURL: "/product/edutrain/home.png",
-      imageURL2: "/product/edutrain/webinar.png",
-      imageURL3: "/product/edutrain/forum_diskusi.png",
-    },
-    {
-      id: 6,
+      id: 7,
       name: "OniFarm",
       imageURL: "/product/onifarm/login.png",
       imageURL2: "/product/onifarm/kesuburan.png",
       imageURL3: "/product/onifarm/pengaturan_jadwal_penyiraman.png",
     },
     {
-      id: 7,
+      id: 8,
       name: "Pertamina",
       imageURL: "/product/pertamina/dashboard.png",
       imageURL2: "/product/pertamina/login.png",
